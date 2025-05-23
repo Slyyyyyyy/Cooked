@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-let items = []; // Example in-memory store
-
 router.get('/', (req, res) => {
   res.json(items);
 });

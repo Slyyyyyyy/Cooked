@@ -1,8 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-let items = []; 
-
 //return all items cuh
 router.get('/', (req, res) => {
   res.json(items);
